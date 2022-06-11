@@ -173,11 +173,13 @@ right: 0;
     padding: 20px;
     /* padding-top: 50px; */
     font-size: 2rem;
+    color: #ffffff;
 }
 
 .hero__paragraph{
     margin-bottom: 20px;
     padding: 20px;
+    color: #ffffff;
 }
 
 .cta{
@@ -202,6 +204,10 @@ right: 0;
     background-size: cover;
     z-index: -1;
     text-align: center;
+}
+
+.about__title{
+    color: #ffffff;
 }
 
 .subtitle{
@@ -322,14 +328,16 @@ right: 0;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    /* padding-top: 20px; */
 }
 
 .price__container{
+    /* padding-top: 25px; */
 padding: var(--padding-container);
 }
 
 .price__table{
-    padding-top: 60px;
+    /* padding-top: 60px; */
     display: flex;
     flex-wrap: wrap;
     gap: 2.5em;
@@ -509,7 +517,7 @@ padding: var(--padding-container);
 
     .nav__link--menu{
         position: fixed;
-        background-image: url(../images/menu65451_3918535796622206263_n.jpg);
+        background-image: url(../images/menu4.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -580,10 +588,11 @@ padding: var(--padding-container);
     }
 
     .subtitle{
-        color: #0C486F;
+        
+        color: #ffffff;
         font-size: 1.8rem;
-        margin-bottom: 24px;
-        padding-top: 100px;
+        margin-bottom: 60px;
+        padding-top: 20px;
         padding-left: 50px;
         padding-right: 50px;
     }
