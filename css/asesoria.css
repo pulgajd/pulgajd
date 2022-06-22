@@ -152,9 +152,9 @@ body{
 
 .cta{
     display: inline-block;
-    background-color: #ffffff;
+    background-color: #0C486F;
     justify-self: center;
-    color: #0C486F;
+    color: #ffffff;
     text-decoration: none;
     padding: 13px 32px;
     border-radius: 22px;
