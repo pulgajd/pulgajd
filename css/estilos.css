@@ -413,7 +413,7 @@ padding: var(--padding-container);
 
 .footer__form{
     padding: var(--padding-container);
-    padding-right: 35px;
+    padding-left: 35px;
 }
 
 .footer__title{
@@ -434,7 +434,7 @@ padding: var(--padding-container);
 
 .footer__container{
     
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #0C486F;
@@ -466,7 +466,7 @@ padding: var(--padding-container);
 .footer__inputs{
     color: rgb(255, 255, 255);
     height: 50px;
-    padding-left: 12px;
+    /* padding-left: 12px; */
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -605,5 +605,25 @@ padding: var(--padding-container);
 
     } */
 
-    
+    .footer__title{
+        justify-self: start;
+    }
+
+    .nav__link--footer{
+        justify-content: space-between;
+    }
+
+    .footer__inputs{
+        flex-wrap: wrap;
+    }
+
+    .footer__input{
+        flex-basis: 100%;
+        margin: 0%;
+        margin-bottom: 16px;
+    }
+
+    .footer__submit{
+        margin-right: auto;
+    }
 }
