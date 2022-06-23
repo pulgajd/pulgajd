@@ -224,13 +224,10 @@ right: 0;
 }
 
 .foto__perfil{
-    height: 200px;
-    padding-bottom: 30px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    height: 250px;
+    padding-bottom: 10px;
+    border-radius: 30%;
+    
 }
 
 .about__paragraph{
@@ -562,7 +559,8 @@ padding: var(--padding-container);
 
     .nav__yepes{
         /* padding-top: 60px; */
-        height: 70px;
+        height: 40px;
+        border-radius: 30%;
         
     }
 
@@ -608,6 +606,26 @@ padding: var(--padding-container);
     .testimony__body{
 
     } */
+
+    .footer__container{
+        flex-wrap: wrap;
+    }
+
+    .nav--footer{
+        width: 100%;
+        justify-items: center;
+    }
+
+    .nav__link--footer{
+        width: 100%;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+    .footer__form{
+        width: 100%;
+        justify-content: space-evenly;
+    }
 
     
 }
