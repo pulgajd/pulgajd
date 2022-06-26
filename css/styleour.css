@@ -437,6 +437,12 @@ body{
 .footer ul li  a:hover{ background: #6A4E0B; border-radius: 5%; -webkit-border-radius: 5%; -moz-border-radius: 5%; -ms-border-radius: 5%; -o-border-radius: 5%;
 }
 
+.footer__form{
+    padding: var(--padding-container);
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
 .footer__title{
     font-weight: 300;
     font-size: 2rem;
@@ -478,7 +484,7 @@ body{
 .footer__inputs{
     color: rgb(255, 255, 255);
     height: 50px;
-    padding-left: 12px;
+    /* padding-left: 12px; */
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
