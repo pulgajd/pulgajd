@@ -70,10 +70,6 @@ body{
     border-radius: 30%;
     padding-top: 8px;
     padding-bottom: 8px;
-    -webkit-border-radius: 30%;
-    -moz-border-radius: 30%;
-    -ms-border-radius: 30%;
-    -o-border-radius: 30%;
 }
 
 .nav__title{
@@ -255,7 +251,7 @@ body{
 
 /* media queries */
 
-@media (max-width:900px){
+@media (max-width: 800px){
     .nav__menu{
         display: block;
     }
@@ -308,9 +304,9 @@ body{
         height: 70px;
     
     }
-}
 
-    @media (max-width:800px){
+
+    
     .hero__title{
         font-size: 1.5rem;
     }

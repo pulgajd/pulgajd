@@ -88,17 +88,13 @@ right: 0;
 } */
 
 .nav__yepes{
-    border-radius: 20%;
     height: 70px;
+    border-radius: 30%;
     /*align-items: center;
     *//*padding-bottom: 30px;
     *//*display: table-cell;
     vertical-align: ;
     */:;
-    -webkit-border-radius: 20%;
-    -moz-border-radius: 20%;
-    -ms-border-radius: 20%;
-    -o-border-radius: 20%;
     padding-top: 8px;
     padding-bottom: 8px;
 }
@@ -499,7 +495,7 @@ padding: var(--padding-container);
 
 /* media queries */
 
-@media (max-width:900px){
+@media (max-width: 800px){
     /* .header{
         background-image: url(../images/colombia.jpg);
         background-repeat: no-repeat;
@@ -542,7 +538,7 @@ padding: var(--padding-container);
         
         /* padding: 20px ; */
 }
-}
+
 
     .nav__link--show{
         --show: block;
@@ -565,7 +561,7 @@ padding: var(--padding-container);
         
     }
 
-    @media (max-width:900px){
+    
     .hero__title{
         font-size: 1.5rem;
     }
