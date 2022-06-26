@@ -148,7 +148,6 @@ body{
     grid-auto-rows: max-content;
     align-content: center;
     gap: 1em;
-    padding-bottom: 100px;
     text-align: center;
 }
 
@@ -227,6 +226,7 @@ body{
 .testimony__text{
     width: 100%;
     max-width: 700px;
+    
 }
 
 /* .subtitle{
@@ -252,10 +252,12 @@ body{
     color: #ffffff;
     font-size: 2rem;
     margin-bottom: 24px;
+    text-align: center;
 }
 
 .testimony__review{
     color: #fff;
+    text-align: center;
 }
 
 .testimony__arrow{
